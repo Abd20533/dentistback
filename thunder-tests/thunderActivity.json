@@ -1,0 +1,60 @@
+[
+    {
+        "_id": "30bd1d5f-cfcd-4f8c-b854-4d4b999f2527",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://www.thunderclient.com/welcome",
+        "url": "https://www.thunderclient.com/welcome",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-04-03T17:58:33.178Z",
+        "modified": "2025-04-03T17:58:33.178Z",
+        "headers": []
+    },
+    {
+        "_id": "f8368633-0e11-457d-be5d-b27ece188015",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://www.thunderclient.com",
+        "url": "https://www.thunderclient.com",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-04-03T18:00:15.442Z",
+        "modified": "2025-04-03T18:00:15.442Z",
+        "headers": []
+    },
+    {
+        "_id": "f115cb41-a983-4cb8-ac86-3d0672904fa4",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://127.0.0.1:8000/api/register/",
+        "url": "http://127.0.0.1:8000/api/register/",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-04-03T19:51:30.099Z",
+        "modified": "2025-04-03T19:51:30.099Z",
+        "headers": [],
+        "body": {
+            "type": "json",
+            "raw": "{\"first_name\": \"Abd\",\r\n         \"last_name\": \"Abd11\",\r\n         \"email\": \"abd@gmail.com\",\r\n         \"password\": \"12345678\"}",
+            "form": []
+        }
+    },
+    {
+        "_id": "df71f8cc-996e-4411-8274-0de7b9da808c",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://127.0.0.1:8000/api/register/",
+        "url": "http://127.0.0.1:8000/api/register/",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2025-04-03T19:51:35.897Z",
+        "modified": "2025-04-03T19:51:35.897Z",
+        "headers": [],
+        "body": {
+            "type": "json",
+            "raw": "{\"first_name\": \"Abd\",\r\n         \"last_name\": \"Abd11\",\r\n         \"email\": \"abd@gmail.com\",\r\n         \"password\": \"12345678\"}",
+            "form": []
+        }
+    }
+]
