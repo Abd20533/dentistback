@@ -31,3 +31,4 @@ def register(request):
     else:
         print(user.errors)
         return Response({"error__register": user.errors}, status=status.HTTP_400_BAD_REQUEST)
+#LHGFDSDFGHKJHGF
