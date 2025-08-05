@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-_fgd268%jhg#=q#$uhkg4egw(rtpvc=_(j@i^^8+k6$3nc36bq"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-# DEBUG = True
+# DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     "product",
     "account.apps.AccountConfig",
+    "order.apps.OrderConfig",
 ]
 
 MIDDLEWARE = [
@@ -57,6 +58,24 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
+
+####
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = 'e23760bb30628f'
+EMAIL_HOST_PASSWORD = '87159f27acb3f7'
+# EMAIL_PORT = '2525'
+EMAIL_PORT = '587'
+
+
+EMAIL_USE_SSL = False
+EMAIL_USE_TLS = True
+# EMAIL_USE_TLS= False
+
+###
 
 ROOT_URLCONF = "project.urls"
 

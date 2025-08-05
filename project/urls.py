@@ -25,6 +25,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("product.urls")),
     path("api/", include("account.urls")),
+    path("api/", include("order.urls")),
+
     path("api/token/", TokenObtainPairView.as_view()),
 
 
@@ -33,4 +35,3 @@ urlpatterns = [
 handler404 = "utils.error_view.handler404"
 handler500 = "utils.error_view.handler500"
 # handler400 = "utils.error_view.handler400"
-
